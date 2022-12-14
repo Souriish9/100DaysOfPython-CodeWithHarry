@@ -27,3 +27,25 @@ print(dict1)
 
 #Tuple is immuatble
 
+#Typecasting-Day9
+#One type to another type
+
+a="1"
+b="2"
+print(int(a)+int(b))
+
+#Eplicit-> I'm converting
+#Implicit -> Python is converting on it's own
+
+c=1.9
+d=8
+ans=c+d
+# ans converted to float implicitly to avoid data loss
+print(ans)
+
+#Input taking from user
+m=int(input("Enter any thing: "))
+print(m)
+
+
+
